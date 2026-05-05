@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-paper-white: #ffffff;
+    --color-pure-black: #000000;
+    --color-page-ink: #1a1a1a;
+    --color-subtle-gray: #e2e8f0;
+    --color-link-blue: #057dbc;
+    --color-caption-gray: #757575;
+    
+    --color-canvas: var(--color-paper-white);
+    --color-primary-ink: var(--color-page-ink);
+    --color-hairline: var(--color-subtle-gray);
+    --color-accent: var(--color-link-blue);
+    --color-ribbon-bg: var(--color-pure-black);
+    --color-metadata: var(--color-caption-gray);
+  }
+
+  .dark {
+    --color-canvas: #000000;
+    --color-primary-ink: #ffffff;
+    --color-hairline: #333333;
+    --color-ribbon-bg: #1a1a1a;
+    --color-metadata: #a0aec0;
+    --color-accent: #057dbc;
+  }
+
+  body {
+    @apply bg-[var(--color-canvas)] text-[var(--color-primary-ink)] font-body antialiased;
+  }
+}
+
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: none;
+  mix-blend-mode: normal;
+}
+::view-transition-old(root) {
+  z-index: 1;
+}
+::view-transition-new(root) {
+  z-index: 2;
+}
+
+@media print {
+  @page {
+    size: A4;
+    margin: 0;
+  }
+  html, body {
+    background-color: white !important;
+    color: black !important;
+    font-size: 11pt;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+  ::view-transition-old(root),
+  ::view-transition-new(root) {
+    display: none !important;
+  }
+}
