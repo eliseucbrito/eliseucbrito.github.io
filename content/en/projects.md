@@ -21,8 +21,5 @@ projects:
       - "Software Engineering"
       - "Agile Methodologies"
       - "Social Impact"
-    images:
-      - "/images/cincoders_gris/1.jpg"
-      - "/images/cincoders_gris/2.jpg"
-      - "/images/cincoders_gris/3.jpg"
+    label: "gris"
 ---
