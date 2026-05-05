@@ -64,6 +64,18 @@ export function PortfolioClient({ contentPt, contentEn }: PortfolioClientProps) 
               className="font-body text-[16px] leading-[1.5] text-primaryInk max-w-2xl mt-8"
               dangerouslySetInnerHTML={{ __html: heroData.content }}
             />
+
+            <div className="flex flex-wrap gap-6 mt-8 pt-6 border-t border-hairline max-w-2xl">
+              <a href="mailto:ecb2@cin.ufpe.br" className="font-mono text-sm uppercase tracking-wide text-primaryInk hover:text-accent transition-colors underline underline-offset-4 decoration-hairline hover:decoration-accent">
+                Email
+              </a>
+              <a href="https://linkedin.com/in/eliseucbrito" target="_blank" rel="noreferrer" className="font-mono text-sm uppercase tracking-wide text-primaryInk hover:text-accent transition-colors underline underline-offset-4 decoration-hairline hover:decoration-accent">
+                LinkedIn
+              </a>
+              <a href="https://github.com/eliseucbrito" target="_blank" rel="noreferrer" className="font-mono text-sm uppercase tracking-wide text-primaryInk hover:text-accent transition-colors underline underline-offset-4 decoration-hairline hover:decoration-accent">
+                GitHub
+              </a>
+            </div>
           </div>
 
           <div className="lg:col-span-4 flex items-start justify-end lg:border-l lg:border-hairline lg:pl-12 pt-8 lg:pt-0">

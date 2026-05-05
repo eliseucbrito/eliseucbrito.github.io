@@ -118,11 +118,11 @@ export function ProjectsSection({ data, content }: ProjectsSectionProps) {
                 {project.images && project.images.length > 0 && (
                   <div className="flex flex-wrap gap-4 mt-8">
                     {project.images.map((img, iIdx) => (
-                      <div key={iIdx} className="bg-hairline/10 border border-hairline overflow-hidden group flex-auto rounded">
+                      <div key={iIdx} className="bg-hairline/10 border border-hairline overflow-hidden group rounded">
                         <img 
                           src={img} 
                           alt={`${project.title} screenshot ${iIdx + 1}`} 
-                          className="w-full h-auto max-h-[250px] object-cover transition-transform duration-500 group-hover:scale-105"
+                          className="h-[250px] w-auto object-contain transition-transform duration-500 group-hover:scale-105"
                         />
                       </div>
                     ))}

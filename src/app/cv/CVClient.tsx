@@ -33,7 +33,7 @@ export function CVClient({ contentPt, contentEn }: CVClientProps) {
           <div>
             <h1 className="text-2xl print:text-3xl font-display font-bold uppercase tracking-tight">{heroData.data.title}</h1>
             <p className="text-xs print:text-[11px] font-mono mt-1 text-gray-600">
-              {activeLang === "pt" ? "Engenheiro de Software" : "Software Engineer"} • eliseucbrito.github.io
+              {activeLang === "pt" ? "Engenheiro de Software" : "Software Engineer"} • ecb2@cin.ufpe.br • linkedin.com/in/eliseucbrito • eliseucbrito.github.io
             </p>
           </div>
           <button 
