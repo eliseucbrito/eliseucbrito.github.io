@@ -26,6 +26,18 @@ experiences:
       - "Data pipelines connected to predictive models for generating high-accuracy electoral projections."
       - "Development of the web visualization platform aimed at journalists and researchers."
 
+  - title: "Freelance Developer"
+    company: "Self-employed"
+    type: "Freelancer"
+    period: "2022 — 2024"
+    description: >
+      Worked as a freelance developer in parallel with Scientific Initiation, serving individuals and small businesses by referral. I worked alone in all stages of the projects (requirements gathering, design, development, DevOps and delivery), which required a complete view of the software construction cycle, not just the technical part.
+    highlights:
+      - "Fullstack web systems development with React, NestJS, Java and Spring Boot."
+      - "E-commerce with automated credential delivery, Stripe integration (webhooks, payment status updates and real-time inventory control)."
+      - "Autonomous conduction of all stages: requirements gathering, interface design, development, infrastructure and deployment."
+      - "Custom management systems for small businesses, focusing on usability and adherence to the real business flow."
+
   - title: "Researcher — Scientific Initiation CNPq"
     company: "INES — National Institute of Software Engineering / UFPE"
     type: "Research"

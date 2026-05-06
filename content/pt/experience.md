@@ -32,6 +32,21 @@ experiences:
       - "Pipelines de dados conectados a modelos preditivos para geração de projeções eleitorais de alta acurácia."
       - "Desenvolvimento da plataforma web de visualização voltada para jornalistas e pesquisadores."
 
+  - title: "Desenvolvedor Freelancer"
+    company: "Autônomo"
+    type: "Freelancer"
+    period: "2022 —  2024"
+    description: >
+      Atuei como desenvolvedor autônomo em paralelo à Iniciação Científica, atendendo pessoas físicas e
+      pequenas empresas por indicação. Trabalhei sozinho em todas as etapas dos projetos (levantamento de
+      requisitos, design, desenvolvimento, DevOps e entrega) o que exigiu visão completa do ciclo de
+      construção de software, não só da parte técnica.
+    highlights:
+      - "Desenvolvimento de sistemas web fullstack com React, NestJS, Java e Spring Boot."
+      - "E-commerce com entrega automatizada de credenciais, integração com Stripe (webhooks, atualizações de estado de pagamento e controle de estoque em tempo real)."
+      - "Condução autônoma de todas as etapas: levantamento de requisitos, design de interfaces, desenvolvimento, infraestrutura e deploy."
+      - "Sistemas de gestão sob medida para pequenas empresas, com foco em usabilidade e aderência ao fluxo real do negócio."
+
   - title: "Pesquisador — Iniciação Científica CNPq"
     company: "INES — Instituto Nacional de Engenharia de Software / UFPE"
     type: "Pesquisa"
