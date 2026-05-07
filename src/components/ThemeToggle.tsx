@@ -12,7 +12,14 @@ export function ThemeToggle() {
   }, []);
 
   if (!mounted) {
-    return <div className="w-8 h-8 rounded-full border border-hairline/30"></div>;
+    return (
+      <button
+        className="relative w-9 h-9 rounded-full bg-primaryInk text-canvas flex items-center justify-center opacity-0"
+        aria-hidden="true"
+      >
+        <div className="w-4 h-4" />
+      </button>
+    );
   }
 
   const isDark = theme === "dark";

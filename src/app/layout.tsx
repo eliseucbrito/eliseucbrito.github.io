@@ -32,6 +32,9 @@ export const metadata: Metadata = {
   title: "Eliseu C. Brito - Portfolio",
   description:
     "Engenharia de Software, Arquitetura de Sistemas e Impacto Social.",
+  icons: {
+    icon: "/favicon.ico?v=3",
+  },
 };
 
 export default function RootLayout({

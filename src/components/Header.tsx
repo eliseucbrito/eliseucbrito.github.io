@@ -23,7 +23,7 @@ export function Header({ lang }: { lang: "pt" | "en" }) {
           </Link>
           <div className="hidden md:flex h-10 items-center">
             {navLinks.map((link, idx) => (
-              <div key={link.label} className="flex items-center h-full">
+              <div key={`${link.href}-${idx}`} className="flex items-center h-full">
                 <Link
                   href={link.href}
                   className="hover:text-accent transition-colors px-4 h-full flex items-center border-l border-[#333333]"

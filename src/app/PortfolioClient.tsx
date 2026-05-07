@@ -34,8 +34,14 @@ export function PortfolioClient({ contentPt, contentEn }: PortfolioClientProps) 
     document.documentElement.lang = lang;
   }, [lang]);
 
-  const activeLang = mounted && lang === "en" ? "en" : "pt";
-  const activeContent = activeLang === "en" ? contentEn : contentPt;
+  if (!mounted) {
+    return (
+      <div className="min-h-screen bg-canvas" />
+    );
+  }
+
+  const activeLang = lang === "en" ? "en" : "pt";
+  const activeContent = lang === "en" ? contentEn : contentPt;
   const { heroData, experienceData, projectsData, publicationsData } = activeContent;
 
   return (
@@ -60,7 +66,7 @@ export function PortfolioClient({ contentPt, contentEn }: PortfolioClientProps) 
               </h1>
             )}
 
-            <div 
+            <div
               className="font-body text-[16px] leading-[1.5] text-primaryInk max-w-2xl mt-8"
               dangerouslySetInnerHTML={{ __html: heroData.content }}
             />
