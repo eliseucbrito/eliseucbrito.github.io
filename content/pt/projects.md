@@ -12,8 +12,10 @@ projects:
       aplicações reais, com padrão de qualidade de produção, para instituições do terceiro setor — ao mesmo
       tempo em que ganham experiência prática e se formam como engenheiros de software. Mais do que entregar
       software, o projeto conecta a universidade à comunidade, transformando conhecimento acadêmico em
-      impacto social concreto. Atualmente mantemos projetos ativos com parceiros como a Gris, a Casa do
-      Estudante de Pernambuco e a Associação de Moradores da Vila Arraes.
+      impacto social concreto. Atualmente mantemos projetos ativos com parceiros como a
+      <a href="https://instagram.com/gris.solidario" target="_blank" rel="noopener noreferrer" class="text-accent underline underline-offset-2 decoration-accent/40 hover:decoration-accent transition-colors">Gris</a>,
+      a <a href="https://instagram.com/casadoestudantepe" target="_blank" rel="noopener noreferrer" class="text-accent underline underline-offset-2 decoration-accent/40 hover:decoration-accent transition-colors">Casa do Estudante de Pernambuco</a>
+      e a <a href="https://instagram.com/comunidadevilaarraes" target="_blank" rel="noopener noreferrer" class="text-accent underline underline-offset-2 decoration-accent/40 hover:decoration-accent transition-colors">Associação de Moradores da Vila Arraes</a>.
     role: "Coordenador Adjunto"
     highlights:
       - "Transformação digital para organizações sem acesso a uma equipe de TI própria."
