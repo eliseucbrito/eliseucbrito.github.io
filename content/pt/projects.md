@@ -7,19 +7,21 @@ projects:
     period: "2026 — o momento"
     status: "Ativo"
     description: >
-      O CInCoders (Extensão) atua como uma fábrica de software universitária, onde estudantes de graduação 
-      desenvolvem aplicações reais para organizações sem fins lucrativos. Como coordenador adjunto, oriento 
-      uma equipe de mais de 10 desenvolvedores, definindo a arquitetura dos projetos e garantindo 
-      padrões de qualidade de produção em um ambiente acadêmico. Atualmente, o projeto em desenvolvimento é 
-      uma parceria com o **GRIS: Espaço solidário de apoio lúdico e psicopedagógico para crianças da Várzea**.
+      A Fábrica é uma fábrica de software universitária que leva transformação digital a organizações que
+      não teriam condições de contratar uma equipe de TI própria. Estudantes de graduação desenvolvem
+      aplicações reais, com padrão de qualidade de produção, para instituições do terceiro setor — ao mesmo
+      tempo em que ganham experiência prática e se formam como engenheiros de software. Mais do que entregar
+      software, o projeto conecta a universidade à comunidade, transformando conhecimento acadêmico em
+      impacto social concreto. Atualmente mantemos projetos ativos com parceiros como a Gris, a Casa do
+      Estudante de Pernambuco e a Associação de Moradores da Vila Arraes.
     role: "Coordenador Adjunto"
     highlights:
-      - "Gestão de equipe multidisciplinar com foco em entregas contínuas para o terceiro setor."
-      - "Implementação de metodologias ágeis adaptadas ao calendário e ritmo universitário."
-      - "Mentoria técnica e revisão de código para formação de novos talentos em engenharia de software."
+      - "Transformação digital para organizações sem acesso a uma equipe de TI própria."
+      - "Ponte entre a universidade e a comunidade, convertendo conhecimento acadêmico em impacto social."
+      - "Formação prática de novos engenheiros de software em um ambiente de entregas reais."
     tags:
       - "Software Engineering"
-      - "Agile Methodologies"
+      - "Digital Transformation"
       - "Social Impact"
     label: "gris"
 ---

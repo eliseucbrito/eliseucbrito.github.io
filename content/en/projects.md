@@ -7,19 +7,20 @@ projects:
     period: "2026 — present"
     status: "Active"
     description: >
-      CInCoders (Extension) functions as a university software factory, where undergraduate students 
-      develop real-world applications for non-profit organizations. As co-coordinator, I guide 
-      a team of over 10 developers, defining project architecture and ensuring production-quality 
-      standards within an academic environment. Currently, the project in development is a partnership 
-      with **GRIS: A solidarity space for playful and psychopedagogical support for children in Várzea**.
-    role: "Co-coordinator"
+      Fábrica is a university software factory that brings digital transformation to organizations that
+      wouldn't be able to hire an IT team of their own. Undergraduate students develop real, production-quality
+      applications for third-sector institutions — while gaining hands-on experience and growing as software
+      engineers. More than delivering software, the project connects the university to the community, turning
+      academic knowledge into concrete social impact. We currently maintain active projects with partners such
+      as Gris, Casa do Estudante de Pernambuco and Associação de Moradores da Vila Arraes.
+    role: "Deputy Coordinator"
     highlights:
-      - "Management of a multidisciplinary team focused on continuous delivery for the third sector."
-      - "Implementation of agile methodologies adapted to the university calendar and pace."
-      - "Technical mentoring and code review for training new talents in software engineering."
+      - "Digital transformation for organizations without access to an IT team of their own."
+      - "A bridge between the university and the community, turning academic knowledge into social impact."
+      - "Hands-on training of new software engineers in a real-delivery environment."
     tags:
       - "Software Engineering"
-      - "Agile Methodologies"
+      - "Digital Transformation"
       - "Social Impact"
     label: "gris"
 ---

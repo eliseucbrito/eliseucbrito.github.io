@@ -11,4 +11,6 @@ CInCoders is the development division of the Systems Management at the UFPE Cent
 
 As co-coordinator and technical leader of the extension project, my responsibility goes beyond code. I manage a team of more than 10 students, define project architectures, perform code reviews, and track deliveries from end to end. I also structured an agile methodology adapted to the academic rhythm — because making software work within a university requires adjustments that ready-made methodologies don't cover.
 
+We currently maintain active projects with partner organizations such as Gris, Casa do Estudante de Pernambuco, and Associação de Moradores da Vila Arraes — institutions that wouldn't have resources to hire a development team and now count on real, custom-built software.
+
 The practical result is a team that delivers functioning software to organizations that wouldn't have resources to hire a development team.

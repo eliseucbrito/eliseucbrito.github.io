@@ -11,4 +11,6 @@ O CInCoders é a divisão de desenvolvimento da Gerência de Sistemas do Centro 
 
 Como coordenador adjunto e líder técnico do projeto de extensão, minha responsabilidade vai além do código. Gerencio uma equipe de mais de 10 estudantes, defino a arquitetura dos projetos, faço revisão de código e acompanho as entregas de ponta a ponta. Também estruturei uma metodologia ágil adaptada ao ritmo acadêmico — porque fazer software funcionar dentro de uma universidade exige ajustes que metodologias prontas não cobrem.
 
+Hoje mantemos projetos ativos com organizações parceiras como a Gris, a Casa do Estudante de Pernambuco e a Associação de Moradores da Vila Arraes — instituições que não teriam recursos para contratar um time de desenvolvimento e que passam a contar com software real, feito sob medida.
+
 O resultado prático é um time que entrega software funcionando para organizações que não teriam recursos para contratar um time de desenvolvimento.
