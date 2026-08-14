@@ -29,9 +29,9 @@ const monoFont = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Eliseu C. Brito - Portfolio",
+  title: "Eliseu C. Brito - Portfólio Acadêmico",
   description:
-    "Engenharia de Software, Arquitetura de Sistemas e Impacto Social.",
+    "Portfólio acadêmico de Eliseu Cordeiro de Brito, estudante de Sistemas de Informação no CIn/UFPE.",
   icons: {
     icon: "/favicon.ico?v=3",
   },

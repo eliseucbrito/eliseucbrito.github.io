@@ -24,7 +24,8 @@ function processProjectImages(projects: any[]) {
           fs.copyFileSync(path.join(sourceDir, file), path.join(publicDir, file));
         });
         
-        project.images = files.sort().map(file => `/images/cincoders/${project.label}/${file}`);
+        const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
+        project.images = files.sort().map(file => `${basePath}/images/cincoders/${project.label}/${file}`);
       }
     }
   });
