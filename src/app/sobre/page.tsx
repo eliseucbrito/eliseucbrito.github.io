@@ -1,15 +1,5 @@
 import { AcademicHeader } from "@/components/AcademicHeader";
-
-interface TimelineEntry {
-  title: string;
-  description: string;
-}
-
-interface TimelinePeriod {
-  year: string;
-  institution?: TimelineEntry;
-  activity?: TimelineEntry;
-}
+import { GitGraph, type TimelinePeriod } from "@/components/GitGraph";
 
 const timeline: TimelinePeriod[] = [
   {
@@ -127,57 +117,7 @@ export default function SobrePage() {
             </div>
           </div>
 
-          <div className="flex gap-4 mb-6 font-mono text-xs uppercase tracking-[0.5px]">
-            <span className="flex items-center gap-2 text-metadata">
-              <span className="w-2 h-2 rounded-full bg-primaryInk" /> Instituição / vínculo
-            </span>
-            <span className="flex items-center gap-2 text-metadata">
-              <span className="w-2 h-2 rounded-full bg-accent" /> Atuação
-            </span>
-          </div>
-
-          <ol className="space-y-10">
-            {timeline.map((period) => (
-              <li key={`${period.year}-${period.institution?.title ?? ""}-${period.activity?.title ?? ""}`}>
-                <p className="font-mono text-xs uppercase tracking-[1px] text-metadata mb-3">
-                  {period.year}
-                </p>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10">
-                  <div className="relative pl-6 border-l-2 border-primaryInk">
-                    {period.institution ? (
-                      <>
-                        <span className="absolute -left-[7px] top-1 w-3 h-3 rounded-full bg-primaryInk border-2 border-canvas" />
-                        <h3 className="font-body text-base font-medium text-primaryInk mb-1">
-                          {period.institution.title}
-                        </h3>
-                        <p className="font-body text-sm text-primaryInk/80 leading-[1.5]">
-                          {period.institution.description}
-                        </p>
-                      </>
-                    ) : (
-                      <span className="font-mono text-xs text-metadata">—</span>
-                    )}
-                  </div>
-
-                  <div className="relative pl-6 border-l-2 border-accent">
-                    {period.activity ? (
-                      <>
-                        <span className="absolute -left-[7px] top-1 w-3 h-3 rounded-full bg-accent border-2 border-canvas" />
-                        <h3 className="font-body text-base font-medium text-primaryInk mb-1">
-                          {period.activity.title}
-                        </h3>
-                        <p className="font-body text-sm text-primaryInk/80 leading-[1.5]">
-                          {period.activity.description}
-                        </p>
-                      </>
-                    ) : (
-                      <span className="font-mono text-xs text-metadata">—</span>
-                    )}
-                  </div>
-                </div>
-              </li>
-            ))}
-          </ol>
+          <GitGraph periods={timeline} />
         </section>
 
         <section className="py-16 border-b border-hairline">
