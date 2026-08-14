@@ -11,7 +11,7 @@ export function AcademicHeader({ active }: { active: string }) {
     <header className="w-full">
       <div className="bg-black text-white h-10 w-full flex items-center justify-between px-4 md:px-16 text-xs font-mono uppercase tracking-[1px] border-b border-black">
         <div className="flex items-center space-x-6">
-          <Link href="/" className="font-bold text-sm tracking-wider hover:text-accent transition-colors">
+          <Link href="/" prefetch={false} className="font-bold text-sm tracking-wider hover:text-accent transition-colors">
             ELISEU C. BRITO
           </Link>
           <div className="hidden md:flex h-10 items-center">
@@ -19,6 +19,7 @@ export function AcademicHeader({ active }: { active: string }) {
               <div key={link.href} className="flex items-center h-full">
                 <Link
                   href={link.href}
+                  prefetch={false}
                   className={`hover:text-accent transition-colors px-4 h-full flex items-center border-l border-[#333333] ${
                     active === link.href ? "text-accent" : ""
                   }`}
@@ -38,7 +39,7 @@ export function AcademicHeader({ active }: { active: string }) {
             SISTEMAS DE INFORMAÇÃO · CIn/UFPE
           </span>
           <div className="w-px h-full bg-[#333333]" />
-          <Link href="/profissional" className="hover:text-accent transition-colors">
+          <Link href="/profissional" prefetch={false} className="hover:text-accent transition-colors">
             CV PROFISSIONAL ↗
           </Link>
         </div>

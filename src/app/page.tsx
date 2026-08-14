@@ -101,6 +101,7 @@ export default function Home() {
             <div className="lg:col-span-8 grid grid-cols-1 sm:grid-cols-2 gap-6">
               <Link
                 href="/sobre"
+                prefetch={false}
                 className="block p-6 border border-hairline hover:border-accent transition-colors group"
               >
                 <span className="font-mono text-xs uppercase tracking-[0.5px] text-accent">Sobre</span>
@@ -117,6 +118,7 @@ export default function Home() {
 
               <Link
                 href="/portfolio"
+                prefetch={false}
                 className="block p-6 border border-hairline hover:border-accent transition-colors group"
               >
                 <span className="font-mono text-xs uppercase tracking-[0.5px] text-accent">Portfólio</span>

@@ -26,6 +26,7 @@ export function HeaderActions({ lang }: { lang: "pt" | "en" }) {
       </a>
       <Link
         href="/cv"
+        prefetch={false}
         target="_blank"
         rel="noreferrer"
         className="hover:text-accent transition-colors hidden sm:block"
