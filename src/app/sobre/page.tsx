@@ -1,47 +1,84 @@
 import { AcademicHeader } from "@/components/AcademicHeader";
 
-const timeline = [
+interface TimelineEntry {
+  title: string;
+  description: string;
+}
+
+interface TimelinePeriod {
+  year: string;
+  institution?: TimelineEntry;
+  activity?: TimelineEntry;
+}
+
+const timeline: TimelinePeriod[] = [
   {
     year: "2022",
-    title: "Início da Iniciação Científica",
-    institution: "Instituto Federal do Sertão Pernambucano",
-    description:
-      "Início da trajetória em pesquisa aplicada, com estudos de aprendizado de máquina para predição de qualidade do ar e óbitos por COVID-19.",
+    institution: {
+      title: "Instituto Federal do Sertão Pernambucano",
+      description: "Ensino Médio Técnico.",
+    },
+    activity: {
+      title: "Pesquisa — Modelos de aprendizagem profunda para predição da qualidade do ar",
+      description:
+        "Início da trajetória em pesquisa aplicada, com estudos de aprendizado de máquina para predição de qualidade do ar e óbitos por COVID-19.",
+    },
   },
   {
     year: "2023",
-    title: "Publicações em congresso",
-    institution: "XVI Brazilian Congress on Computational Intelligence",
-    description:
-      "Dois artigos aceitos e apresentados, um deles como autor principal, consolidando a pesquisa iniciada no IF Sertão-PE.",
+    activity: {
+      title: "Publicações — XVI Brazilian Congress on Computational Intelligence",
+      description:
+        "Dois artigos aceitos e apresentados, um deles como autor principal, consolidando a pesquisa iniciada no IF Sertão-PE.",
+    },
   },
   {
     year: "2024",
-    title: "Ingresso em Sistemas de Informação",
-    institution: "Centro de Informática — UFPE",
-    description:
-      "Início do curso de Sistemas de Informação, com continuidade da pesquisa científica através de bolsa CNPq no INES.",
+    institution: {
+      title: "Centro de Informática — UFPE",
+      description: "Ingresso no curso de Sistemas de Informação.",
+    },
+    activity: {
+      title: "Pesquisa — INES / bolsa CNPq",
+      description:
+        "Continuidade da pesquisa científica, com bolsa CNPq financiando estudos de predição de séries temporais no INES.",
+    },
   },
   {
     year: "2024",
-    title: "Servidor público federal",
-    institution: "CInCoders — Centro de Informática, UFPE",
-    description:
-      "Aprovação em concurso público e ingresso como Técnico em Desenvolvimento de Sistemas, atuando em sistemas institucionais de grande escala.",
+    institution: {
+      title: "CInCoders — Centro de Informática, UFPE",
+      description: "Servidor público federal, Técnico em Desenvolvimento de Sistemas.",
+    },
+    activity: {
+      title: "Sistemas institucionais de grande escala",
+      description:
+        "Aprovação em concurso público e atuação no desenvolvimento e modernização de sistemas usados por toda a comunidade acadêmica.",
+    },
   },
   {
     year: "2026",
-    title: "Coordenação da Fábrica",
-    institution: "CInCoders (Projeto de Extensão) — UFPE",
-    description:
-      "Assunção do cargo de Coordenador Adjunto do projeto de extensão, supervisionando desenvolvimento, produto, design e comunicação de uma fábrica de software universitária.",
+    institution: {
+      title: "CInCoders (Projeto de Extensão) — UFPE",
+      description: "Coordenador Adjunto.",
+    },
+    activity: {
+      title: "Coordenação da Fábrica",
+      description:
+        "Supervisão de desenvolvimento, produto, design e comunicação de uma fábrica de software universitária.",
+    },
   },
   {
     year: "2026",
-    title: "Pesquisa em IA para compras públicas",
-    institution: "UFPE · SAD-PE · SETD-PE",
-    description:
-      "Bolsista de graduação no projeto de Inteligência Artificial para Transformação Digital das Compras Públicas de Pernambuco.",
+    institution: {
+      title: "UFPE · SAD-PE · SETD-PE",
+      description: "Bolsista de graduação.",
+    },
+    activity: {
+      title: "Pesquisa em IA para compras públicas",
+      description:
+        "Inteligência Artificial para Transformação Digital das Compras Públicas de Pernambuco.",
+    },
   },
 ];
 
@@ -90,16 +127,54 @@ export default function SobrePage() {
             </div>
           </div>
 
-          <ol className="relative border-l border-hairline ml-2 md:ml-4 space-y-12">
-            {timeline.map((item) => (
-              <li key={`${item.year}-${item.title}`} className="ml-6 md:ml-10 relative">
-                <span className="absolute -left-[31px] md:-left-[47px] top-1 w-3 h-3 rounded-full bg-accent border-2 border-canvas" />
-                <p className="font-mono text-xs uppercase tracking-[0.5px] text-accent mb-1">
-                  {item.year}
+          <div className="flex gap-4 mb-6 font-mono text-xs uppercase tracking-[0.5px]">
+            <span className="flex items-center gap-2 text-metadata">
+              <span className="w-2 h-2 rounded-full bg-primaryInk" /> Instituição / vínculo
+            </span>
+            <span className="flex items-center gap-2 text-metadata">
+              <span className="w-2 h-2 rounded-full bg-accent" /> Atuação
+            </span>
+          </div>
+
+          <ol className="space-y-10">
+            {timeline.map((period) => (
+              <li key={`${period.year}-${period.institution?.title ?? ""}-${period.activity?.title ?? ""}`}>
+                <p className="font-mono text-xs uppercase tracking-[1px] text-metadata mb-3">
+                  {period.year}
                 </p>
-                <h3 className="font-body text-lg font-medium text-primaryInk mb-1">{item.title}</h3>
-                <p className="font-body text-[15px] text-primaryInk/80 mb-2">{item.institution}</p>
-                <p className="font-body text-sm text-primaryInk leading-[1.5]">{item.description}</p>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10">
+                  <div className="relative pl-6 border-l-2 border-primaryInk">
+                    {period.institution ? (
+                      <>
+                        <span className="absolute -left-[7px] top-1 w-3 h-3 rounded-full bg-primaryInk border-2 border-canvas" />
+                        <h3 className="font-body text-base font-medium text-primaryInk mb-1">
+                          {period.institution.title}
+                        </h3>
+                        <p className="font-body text-sm text-primaryInk/80 leading-[1.5]">
+                          {period.institution.description}
+                        </p>
+                      </>
+                    ) : (
+                      <span className="font-mono text-xs text-metadata">—</span>
+                    )}
+                  </div>
+
+                  <div className="relative pl-6 border-l-2 border-accent">
+                    {period.activity ? (
+                      <>
+                        <span className="absolute -left-[7px] top-1 w-3 h-3 rounded-full bg-accent border-2 border-canvas" />
+                        <h3 className="font-body text-base font-medium text-primaryInk mb-1">
+                          {period.activity.title}
+                        </h3>
+                        <p className="font-body text-sm text-primaryInk/80 leading-[1.5]">
+                          {period.activity.description}
+                        </p>
+                      </>
+                    ) : (
+                      <span className="font-mono text-xs text-metadata">—</span>
+                    )}
+                  </div>
+                </div>
               </li>
             ))}
           </ol>
