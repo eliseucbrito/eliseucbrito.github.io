@@ -1,11 +1,11 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { useUIStore } from "../store/useUIStore";
-import { Header } from "../components/Header";
-import { ExperienceSection } from "../components/sections/ExperienceSection";
-import { ProjectsSection } from "../components/sections/ProjectsSection";
-import { PublicationsSection } from "../components/sections/PublicationsSection";
+import { useUIStore } from "@/store/useUIStore";
+import { Header } from "@/components/Header";
+import { ExperienceSection } from "@/components/sections/ExperienceSection";
+import { ProjectsSection } from "@/components/sections/ProjectsSection";
+import { PublicationsSection } from "@/components/sections/PublicationsSection";
 
 interface SectionData {
   data: Record<string, unknown>;
