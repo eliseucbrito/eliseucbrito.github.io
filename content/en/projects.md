@@ -36,9 +36,9 @@ projects:
       I'm part of the team behind "AI for Digital Transformation of Public Procurement", a
       partnership between UFPE, the Secretariat of Administration (SAD-PE) and the Executive
       Secretariat for Digital Transformation (SETD-PE) of the state government of Pernambuco. The
-      project brings together applied research in similarity analysis — natural language processing
-      and LLMs to reconcile procurement data described in different ways across different databases
-      — which feeds <strong>MAPEAR</strong>, a public price research platform we keep improving with
+      project brings together applied research in similarity analysis (natural language processing
+      and LLMs to reconcile procurement data described in different ways across different databases)
+      which feeds <strong>MAPEAR</strong>, a public price research platform we keep improving with
       new tools that help set prices for products under bidding. In parallel, we work on rethinking
       internal processes that today demand excessive time and effort from public servants, aiming to
       make them more efficient and improve the day-to-day work of those who run the state's public

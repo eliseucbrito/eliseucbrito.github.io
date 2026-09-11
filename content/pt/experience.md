@@ -38,8 +38,8 @@ experiences:
       Bolsista de graduação no projeto "IA para Transformação Digital das Compras Públicas",
       parceria entre a UFPE, a Secretaria de Administração (SAD-PE) e a Secretaria Executiva de
       Transformação Digital (SETD-PE) do governo estadual de Pernambuco. O projeto reúne uma
-      pesquisa aplicada em análise de similaridade — processamento de linguagem natural e LLMs para
-      reconciliar dados de compras descritos de formas distintas em diferentes bases — que alimenta o
+      pesquisa aplicada em análise de similaridade (processamento de linguagem natural e LLMs para
+      reconciliar dados de compras descritos de formas distintas em diferentes bases) que alimenta o
       MAPEAR, plataforma de pesquisa de preços públicos que seguimos aperfeiçoando com novas
       ferramentas de apoio à definição de preços de produtos licitados. Em paralelo, trabalhamos em
       repensar processos internos que hoje consomem tempo e esforço excessivos dos servidores,
