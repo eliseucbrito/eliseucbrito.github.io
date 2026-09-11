@@ -34,21 +34,21 @@ projects:
     status: "Ativo"
     url: "https://mapear.cin.ufpe.br/"
     description: >
-      Atuo no desenvolvimento de ferramentas de software que modernizam as compras públicas do
-      governo de Pernambuco, em parceria entre a UFPE, a Secretaria de Administração (SAD-PE) e a
-      Secretaria Executiva de Transformação Digital (SETD-PE). Sou responsável pelo
-      <strong>MAPEAR</strong>, plataforma de pesquisa de preços públicos que recebi da SETD-PE para dar
-      continuidade ao desenvolvimento e evoluir com novas funcionalidades de apoio à definição de
-      preços de produtos licitados. Também colaboro em um sistema, ainda em fase de testes, para
-      geração de Termos de Referência — repensando o preenchimento desse documento com foco em
-      usabilidade, facilidade de preenchimento e validação do conteúdo. Complementarmente, integro a
-      frente de pesquisa aplicada em processamento de linguagem natural do projeto guarda-chuva "IA
-      para Transformação Digital das Compras Públicas", experimentando modelos para reconciliar dados
-      de compras descritos de formas distintas em diferentes bases.
+      Integro uma equipe que desenvolve ferramentas de software para modernizar as compras públicas
+      do governo de Pernambuco, em parceria entre a UFPE, a Secretaria de Administração (SAD-PE) e a
+      Secretaria Executiva de Transformação Digital (SETD-PE). Participo do <strong>MAPEAR</strong>,
+      plataforma de pesquisa de preços públicos que a equipe deu continuidade após a SETD-PE
+      transferir sua manutenção, evoluindo com novas funcionalidades de apoio à definição de preços
+      de produtos licitados. Também colaboramos em repensar como facilitar e acelerar o preenchimento
+      de documentos fundamentais para o processo de compras, como os Termos de Referência, buscando
+      tornar esse preenchimento mais rápido, com foco em usabilidade e validação do conteúdo. Além
+      disso, contribuo com a frente de pesquisa aplicada em processamento de linguagem natural do
+      projeto guarda-chuva "IA para Transformação Digital das Compras Públicas", experimentando
+      modelos para reconciliar dados de compras descritos de formas distintas em diferentes bases.
     role: "Engenheiro de Software & Pesquisador em IA"
     highlights:
-      - "Responsável pelo MAPEAR, ferramenta de pesquisa de preços públicos usada por órgãos do governo estadual."
-      - "Desenvolvimento de um sistema de geração de Termos de Referência com foco em usabilidade e validação."
+      - "Participação no MAPEAR, ferramenta de pesquisa de preços públicos usada por órgãos do governo estadual."
+      - "Colaboração em repensar o preenchimento de Termos de Referência, buscando torná-lo mais rápido e simples."
       - "Pesquisa aplicada em NLP e LLMs para reconciliação de dados de compras públicas."
     tags:
       - "Software Engineering"

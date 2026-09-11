@@ -36,13 +36,14 @@ experiences:
     description: >
       Undergraduate fellow in a partnership between UFPE, the Secretariat of Administration (SAD-PE)
       and the Executive Secretariat for Digital Transformation (SETD-PE) of the state government,
-      building software tools to modernize public procurement in Pernambuco. I'm responsible for
-      MAPEAR, a public price research platform handed over to me by SETD-PE to continue development
-      and evolve with new features that help set prices for products under bidding. I also
-      collaborate on a system, still in testing, for generating Statements of Work, rethinking how
-      that document is filled out with a focus on usability and validation. On top of that, I take
-      part in the applied natural language processing research of the umbrella project "AI for
-      Digital Transformation of Public Procurement", experimenting with models to reconcile
+      part of a team building software tools to modernize public procurement in Pernambuco. I take
+      part in MAPEAR, a public price research platform the team continued developing after SETD-PE
+      handed over its maintenance, evolving it with new features that help set prices for products
+      under bidding. We also collaborate on rethinking how to make filling out documents that are
+      fundamental to the procurement process — such as Statements of Work — faster and easier, with
+      a focus on usability and validation. On top of that, I take part in the applied natural
+      language processing research of the umbrella project "AI for Digital Transformation of Public
+      Procurement", experimenting with models to reconcile
       procurement data described in different ways across different databases.
 
   - title: "Co-founder & Solutions Architect"

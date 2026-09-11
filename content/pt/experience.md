@@ -36,14 +36,15 @@ experiences:
     period: "Jun/2026 — presente"
     description: >
       Bolsista de graduação em parceria entre a UFPE, a Secretaria de Administração (SAD-PE) e a
-      Secretaria Executiva de Transformação Digital (SETD-PE) do governo estadual, desenvolvendo
-      ferramentas de software para modernizar as compras públicas de Pernambuco. Sou responsável pelo
-      MAPEAR, plataforma de pesquisa de preços públicos que recebi da SETD-PE para dar continuidade
-      ao desenvolvimento e evoluir com novas funcionalidades de apoio à definição de preços de
-      produtos licitados. Também colaboro em um sistema, ainda em fase de testes, para geração de
-      Termos de Referência, repensando o preenchimento desse documento com foco em usabilidade e
-      validação. Complementarmente, participo da pesquisa aplicada em processamento de linguagem
-      natural do projeto guarda-chuva "IA para Transformação Digital das Compras Públicas",
+      Secretaria Executiva de Transformação Digital (SETD-PE) do governo estadual, integrando uma
+      equipe que desenvolve ferramentas de software para modernizar as compras públicas de
+      Pernambuco. Participo do MAPEAR, plataforma de pesquisa de preços públicos que a equipe deu
+      continuidade após a SETD-PE transferir sua manutenção, evoluindo com novas funcionalidades de
+      apoio à definição de preços de produtos licitados. Também colaboramos em repensar como
+      facilitar e acelerar o preenchimento de documentos fundamentais para o processo de compras,
+      como os Termos de Referência, buscando tornar esse preenchimento mais rápido, com foco em
+      usabilidade e validação. Complementarmente, participo da pesquisa aplicada em processamento de
+      linguagem natural do projeto guarda-chuva "IA para Transformação Digital das Compras Públicas",
       experimentando modelos para reconciliar dados de compras descritos de formas distintas em
       diferentes bases.
 
