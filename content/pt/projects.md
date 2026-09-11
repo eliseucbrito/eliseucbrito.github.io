@@ -26,4 +26,26 @@ projects:
       - "Digital Transformation"
       - "Social Impact"
     label: "gris"
+
+  - title: "IA para Transformação Digital das Compras Públicas"
+    subtitle: "UFPE · SAD-PE · SETD-PE (Governo Estadual de Pernambuco)"
+    kicker: "PESQUISA & DESENVOLVIMENTO · SETOR PÚBLICO"
+    period: "Jun/2026 — o momento"
+    status: "Ativo"
+    description: >
+      Projeto de pesquisa aplicada e desenvolvimento em parceria com a Secretaria de Administração
+      (SAD-PE) e a Secretaria Executiva de Transformação Digital (SETD-PE) do governo estadual de
+      Pernambuco, com o objetivo de modernizar as compras públicas do estado por meio de Inteligência
+      Artificial. O trabalho combina pesquisa em processamento de linguagem natural — experimentando
+      modelos e estratégias para reconciliar dados de compras públicas descritos de formas distintas
+      em diferentes bases — com a engenharia de software que viabiliza e agiliza essa experimentação.
+    role: "Pesquisador em IA & Engenheiro de Software"
+    highlights:
+      - "Reconciliação de dados de compras públicas heterogêneos usando LLMs e NLP."
+      - "Construção das ferramentas que dão suporte e agilizam a pesquisa aplicada do time."
+      - "Parceria direta entre a UFPE e órgãos do governo estadual de Pernambuco (SAD-PE, SETD-PE)."
+    tags:
+      - "Artificial Intelligence"
+      - "NLP"
+      - "Public Sector"
 ---

@@ -25,4 +25,27 @@ projects:
       - "Digital Transformation"
       - "Social Impact"
     label: "gris"
+
+  - title: "AI for Digital Transformation of Public Procurement"
+    subtitle: "UFPE · SAD-PE · SETD-PE (State Government of Pernambuco)"
+    kicker: "RESEARCH & DEVELOPMENT · PUBLIC SECTOR"
+    period: "Jun/2026 — present"
+    status: "Active"
+    description: >
+      Applied research and development project in partnership with the Secretariat of Administration
+      (SAD-PE) and the Executive Secretariat for Digital Transformation (SETD-PE) of the state
+      government of Pernambuco, aimed at modernizing the state's public procurement through
+      Artificial Intelligence. The work combines natural language processing research — experimenting
+      with models and strategies to reconcile public procurement data described in different ways
+      across different databases — with the software engineering that enables and speeds up that
+      experimentation.
+    role: "AI Researcher & Software Engineer"
+    highlights:
+      - "Reconciliation of heterogeneous public procurement data using LLMs and NLP."
+      - "Building the tools that support and speed up the team's applied research."
+      - "Direct partnership between UFPE and Pernambuco state government agencies (SAD-PE, SETD-PE)."
+    tags:
+      - "Artificial Intelligence"
+      - "NLP"
+      - "Public Sector"
 ---
