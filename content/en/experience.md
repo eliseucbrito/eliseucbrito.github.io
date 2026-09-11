@@ -30,21 +30,20 @@ experiences:
       projects, ensuring the team delivers production-quality software within the academic pace.
 
   - title: "Software Engineer & AI Researcher — Undergraduate Fellow"
-    company: "AI Tools for Public Procurement — UFPE · SAD-PE · SETD-PE (State Government of Pernambuco)"
+    company: "AI for Digital Transformation of Public Procurement — UFPE · SAD-PE · SETD-PE (State Government of Pernambuco)"
     type: "Software Engineering & Research"
     period: "Jun/2026 — present"
     description: >
-      Undergraduate fellow in a partnership between UFPE, the Secretariat of Administration (SAD-PE)
-      and the Executive Secretariat for Digital Transformation (SETD-PE) of the state government,
-      part of a team building software tools to modernize public procurement in Pernambuco. I take
-      part in MAPEAR, a public price research platform the team continued developing after SETD-PE
-      handed over its maintenance, evolving it with new features that help set prices for products
-      under bidding. We also collaborate on rethinking how to make filling out documents that are
-      fundamental to the procurement process — such as Statements of Work — faster and easier, with
-      a focus on usability and validation. On top of that, I take part in the applied natural
-      language processing research of the umbrella project "AI for Digital Transformation of Public
-      Procurement", experimenting with models to reconcile
-      procurement data described in different ways across different databases.
+      Undergraduate fellow on the "AI for Digital Transformation of Public Procurement" project, a
+      partnership between UFPE, the Secretariat of Administration (SAD-PE) and the Executive
+      Secretariat for Digital Transformation (SETD-PE) of the state government of Pernambuco. The
+      project brings together applied research in similarity analysis — natural language processing
+      and LLMs to reconcile procurement data described in different ways across different databases
+      — which feeds MAPEAR, a public price research platform we keep improving with new tools that
+      help set prices for products under bidding. In parallel, we work on rethinking internal
+      processes that today demand excessive time and effort from public servants, aiming to make
+      them more efficient and improve the day-to-day work of those who run the state's public
+      procurement.
 
   - title: "Co-founder & Solutions Architect"
     company: "PoliTrends — Real-Time Sociopolitical Intelligence"

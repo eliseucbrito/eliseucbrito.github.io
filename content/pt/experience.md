@@ -31,22 +31,20 @@ experiences:
       qualidade de produção dentro do ritmo acadêmico.
 
   - title: "Engenheiro de Software & Pesquisador em IA — Bolsista de Graduação"
-    company: "Ferramentas de IA para Compras Públicas — UFPE · SAD-PE · SETD-PE (Governo Estadual de Pernambuco)"
+    company: "IA para Transformação Digital das Compras Públicas — UFPE · SAD-PE · SETD-PE (Governo Estadual de Pernambuco)"
     type: "Engenharia de Software & Pesquisa"
     period: "Jun/2026 — presente"
     description: >
-      Bolsista de graduação em parceria entre a UFPE, a Secretaria de Administração (SAD-PE) e a
-      Secretaria Executiva de Transformação Digital (SETD-PE) do governo estadual, integrando uma
-      equipe que desenvolve ferramentas de software para modernizar as compras públicas de
-      Pernambuco. Participo do MAPEAR, plataforma de pesquisa de preços públicos que a equipe deu
-      continuidade após a SETD-PE transferir sua manutenção, evoluindo com novas funcionalidades de
-      apoio à definição de preços de produtos licitados. Também colaboramos em repensar como
-      facilitar e acelerar o preenchimento de documentos fundamentais para o processo de compras,
-      como os Termos de Referência, buscando tornar esse preenchimento mais rápido, com foco em
-      usabilidade e validação. Complementarmente, participo da pesquisa aplicada em processamento de
-      linguagem natural do projeto guarda-chuva "IA para Transformação Digital das Compras Públicas",
-      experimentando modelos para reconciliar dados de compras descritos de formas distintas em
-      diferentes bases.
+      Bolsista de graduação no projeto "IA para Transformação Digital das Compras Públicas",
+      parceria entre a UFPE, a Secretaria de Administração (SAD-PE) e a Secretaria Executiva de
+      Transformação Digital (SETD-PE) do governo estadual de Pernambuco. O projeto reúne uma
+      pesquisa aplicada em análise de similaridade — processamento de linguagem natural e LLMs para
+      reconciliar dados de compras descritos de formas distintas em diferentes bases — que alimenta o
+      MAPEAR, plataforma de pesquisa de preços públicos que seguimos aperfeiçoando com novas
+      ferramentas de apoio à definição de preços de produtos licitados. Em paralelo, trabalhamos em
+      repensar processos internos que hoje consomem tempo e esforço excessivos dos servidores,
+      buscando torná-los mais eficientes e melhorar o dia a dia de trabalho de quem conduz as
+      compras públicas do estado.
 
   - title: "Co-fundador & Arquiteto de Soluções"
     company: "PoliTrends — Inteligência Sociopolítica em Tempo Real"

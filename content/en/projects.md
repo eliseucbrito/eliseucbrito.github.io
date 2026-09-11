@@ -26,29 +26,28 @@ projects:
       - "Social Impact"
     label: "gris"
 
-  - title: "AI Tools for Public Procurement"
+  - title: "AI for Digital Transformation of Public Procurement"
     subtitle: "UFPE · SAD-PE · SETD-PE (State Government of Pernambuco)"
     kicker: "SOFTWARE ENGINEERING & AI · PUBLIC SECTOR"
     period: "Jun/2026 — present"
     status: "Active"
     url: "https://mapear.cin.ufpe.br/"
     description: >
-      I'm part of a team building software tools to modernize public procurement for the state
-      government of Pernambuco, in a partnership between UFPE, the Secretariat of Administration
-      (SAD-PE) and the Executive Secretariat for Digital Transformation (SETD-PE). I take part in
-      <strong>MAPEAR</strong>, a public price research platform the team continued developing after
-      SETD-PE handed over its maintenance, evolving it with new features that help set prices for
-      products under bidding. We also collaborate on rethinking how to make filling out documents
-      that are fundamental to the procurement process — such as Statements of Work (Termos de
-      Referência) — faster and easier, with a focus on usability and content validation. On top of
-      that, I contribute to the applied natural language processing research front of the umbrella
-      project "AI for Digital Transformation of Public Procurement", experimenting with models to
-      reconcile procurement data described in different ways across different databases.
+      I'm part of the team behind "AI for Digital Transformation of Public Procurement", a
+      partnership between UFPE, the Secretariat of Administration (SAD-PE) and the Executive
+      Secretariat for Digital Transformation (SETD-PE) of the state government of Pernambuco. The
+      project brings together applied research in similarity analysis — natural language processing
+      and LLMs to reconcile procurement data described in different ways across different databases
+      — which feeds <strong>MAPEAR</strong>, a public price research platform we keep improving with
+      new tools that help set prices for products under bidding. In parallel, we work on rethinking
+      internal processes that today demand excessive time and effort from public servants, aiming to
+      make them more efficient and improve the day-to-day work of those who run the state's public
+      procurement.
     role: "Software Engineer & AI Researcher"
     highlights:
-      - "Part of the team behind MAPEAR, a public price research tool used by state government agencies."
-      - "Collaboration on making Statements of Work faster and easier to fill out, with built-in validation."
-      - "Applied NLP and LLM research to reconcile public procurement data."
+      - "Applied research in similarity analysis (NLP, LLMs) to reconcile public procurement data."
+      - "Improvements to MAPEAR and new tools that help set prices for products under bidding."
+      - "Redesign of costly internal processes to reduce time and effort for public servants."
     tags:
       - "Software Engineering"
       - "Artificial Intelligence"
