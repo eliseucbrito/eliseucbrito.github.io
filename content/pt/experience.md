@@ -30,20 +30,22 @@ experiences:
       atuo na prospecção de novos clientes e projetos, garantindo que o time entregue software de
       qualidade de produção dentro do ritmo acadêmico.
 
-  - title: "Pesquisador em IA & Engenheiro de Software — Bolsista de Graduação"
-    company: "IA para Transformação Digital das Compras Públicas — UFPE · SAD-PE · SETD-PE (Governo Estadual de Pernambuco)"
-    type: "Pesquisa & Desenvolvimento"
+  - title: "Engenheiro de Software & Pesquisador em IA — Bolsista de Graduação"
+    company: "Ferramentas de IA para Compras Públicas — UFPE · SAD-PE · SETD-PE (Governo Estadual de Pernambuco)"
+    type: "Engenharia de Software & Pesquisa"
     period: "Jun/2026 — presente"
     description: >
-      Bolsista de graduação no projeto "Inteligência Artificial para Transformação Digital das
-      Compras Públicas em Pernambuco", uma parceria entre a UFPE, a Secretaria de Administração
-      (SAD-PE) e a Secretaria Executiva de Transformação Digital (SETD-PE) do governo estadual. Atuo
-      em duas frentes complementares: na pesquisa aplicada em processamento de linguagem natural,
-      experimentando modelos e estratégias para reconciliar dados de compras públicas descritos de
-      formas distintas em diferentes bases; e na engenharia de software que dá suporte a essa
-      pesquisa, construindo as ferramentas que viabilizam e agilizam a experimentação do time. O
-      trabalho envolve grandes modelos de linguagem (LLMs), NLP e análise de dados governamentais
-      para modernizar as compras públicas do estado.
+      Bolsista de graduação em parceria entre a UFPE, a Secretaria de Administração (SAD-PE) e a
+      Secretaria Executiva de Transformação Digital (SETD-PE) do governo estadual, desenvolvendo
+      ferramentas de software para modernizar as compras públicas de Pernambuco. Sou responsável pelo
+      MAPEAR, plataforma de pesquisa de preços públicos que recebi da SETD-PE para dar continuidade
+      ao desenvolvimento e evoluir com novas funcionalidades de apoio à definição de preços de
+      produtos licitados. Também colaboro em um sistema, ainda em fase de testes, para geração de
+      Termos de Referência, repensando o preenchimento desse documento com foco em usabilidade e
+      validação. Complementarmente, participo da pesquisa aplicada em processamento de linguagem
+      natural do projeto guarda-chuva "IA para Transformação Digital das Compras Públicas",
+      experimentando modelos para reconciliar dados de compras descritos de formas distintas em
+      diferentes bases.
 
   - title: "Co-fundador & Arquiteto de Soluções"
     company: "PoliTrends — Inteligência Sociopolítica em Tempo Real"

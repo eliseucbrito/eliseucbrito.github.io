@@ -27,25 +27,31 @@ projects:
       - "Social Impact"
     label: "gris"
 
-  - title: "IA para Transformação Digital das Compras Públicas"
+  - title: "Ferramentas de IA para Compras Públicas"
     subtitle: "UFPE · SAD-PE · SETD-PE (Governo Estadual de Pernambuco)"
-    kicker: "PESQUISA & DESENVOLVIMENTO · SETOR PÚBLICO"
+    kicker: "ENGENHARIA DE SOFTWARE & IA · SETOR PÚBLICO"
     period: "Jun/2026 — o momento"
     status: "Ativo"
+    url: "https://mapear.cin.ufpe.br/"
     description: >
-      Projeto de pesquisa aplicada e desenvolvimento em parceria com a Secretaria de Administração
-      (SAD-PE) e a Secretaria Executiva de Transformação Digital (SETD-PE) do governo estadual de
-      Pernambuco, com o objetivo de modernizar as compras públicas do estado por meio de Inteligência
-      Artificial. O trabalho combina pesquisa em processamento de linguagem natural — experimentando
-      modelos e estratégias para reconciliar dados de compras públicas descritos de formas distintas
-      em diferentes bases — com a engenharia de software que viabiliza e agiliza essa experimentação.
-    role: "Pesquisador em IA & Engenheiro de Software"
+      Atuo no desenvolvimento de ferramentas de software que modernizam as compras públicas do
+      governo de Pernambuco, em parceria entre a UFPE, a Secretaria de Administração (SAD-PE) e a
+      Secretaria Executiva de Transformação Digital (SETD-PE). Sou responsável pelo
+      <strong>MAPEAR</strong>, plataforma de pesquisa de preços públicos que recebi da SETD-PE para dar
+      continuidade ao desenvolvimento e evoluir com novas funcionalidades de apoio à definição de
+      preços de produtos licitados. Também colaboro em um sistema, ainda em fase de testes, para
+      geração de Termos de Referência — repensando o preenchimento desse documento com foco em
+      usabilidade, facilidade de preenchimento e validação do conteúdo. Complementarmente, integro a
+      frente de pesquisa aplicada em processamento de linguagem natural do projeto guarda-chuva "IA
+      para Transformação Digital das Compras Públicas", experimentando modelos para reconciliar dados
+      de compras descritos de formas distintas em diferentes bases.
+    role: "Engenheiro de Software & Pesquisador em IA"
     highlights:
-      - "Reconciliação de dados de compras públicas heterogêneos usando LLMs e NLP."
-      - "Construção das ferramentas que dão suporte e agilizam a pesquisa aplicada do time."
-      - "Parceria direta entre a UFPE e órgãos do governo estadual de Pernambuco (SAD-PE, SETD-PE)."
+      - "Responsável pelo MAPEAR, ferramenta de pesquisa de preços públicos usada por órgãos do governo estadual."
+      - "Desenvolvimento de um sistema de geração de Termos de Referência com foco em usabilidade e validação."
+      - "Pesquisa aplicada em NLP e LLMs para reconciliação de dados de compras públicas."
     tags:
+      - "Software Engineering"
       - "Artificial Intelligence"
-      - "NLP"
       - "Public Sector"
 ---

@@ -29,20 +29,21 @@ experiences:
       also represent Fábrica in meetings with our clients and work on prospecting new clients and
       projects, ensuring the team delivers production-quality software within the academic pace.
 
-  - title: "AI Researcher & Software Engineer — Undergraduate Fellow"
-    company: "AI for Digital Transformation of Public Procurement — UFPE · SAD-PE · SETD-PE (State Government of Pernambuco)"
-    type: "Research & Development"
+  - title: "Software Engineer & AI Researcher — Undergraduate Fellow"
+    company: "AI Tools for Public Procurement — UFPE · SAD-PE · SETD-PE (State Government of Pernambuco)"
+    type: "Software Engineering & Research"
     period: "Jun/2026 — present"
     description: >
-      Undergraduate fellow on the project "Artificial Intelligence for the Digital Transformation of
-      Public Procurement in Pernambuco", a partnership between UFPE, the Secretariat of Administration
-      (SAD-PE) and the Executive Secretariat for Digital Transformation (SETD-PE) of the state
-      government. I work on two complementary fronts: applied natural language processing research,
-      experimenting with models and strategies to reconcile public procurement data described in
-      different ways across different databases; and the software engineering that supports this
-      research, building the tools that enable and speed up the team's experimentation. The work
-      involves large language models (LLMs), NLP and government data analysis to modernize the state's
-      public procurement.
+      Undergraduate fellow in a partnership between UFPE, the Secretariat of Administration (SAD-PE)
+      and the Executive Secretariat for Digital Transformation (SETD-PE) of the state government,
+      building software tools to modernize public procurement in Pernambuco. I'm responsible for
+      MAPEAR, a public price research platform handed over to me by SETD-PE to continue development
+      and evolve with new features that help set prices for products under bidding. I also
+      collaborate on a system, still in testing, for generating Statements of Work, rethinking how
+      that document is filled out with a focus on usability and validation. On top of that, I take
+      part in the applied natural language processing research of the umbrella project "AI for
+      Digital Transformation of Public Procurement", experimenting with models to reconcile
+      procurement data described in different ways across different databases.
 
   - title: "Co-founder & Solutions Architect"
     company: "PoliTrends — Real-Time Sociopolitical Intelligence"
