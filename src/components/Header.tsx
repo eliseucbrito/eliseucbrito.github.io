@@ -9,7 +9,6 @@ export function Header({ lang }: { lang: "pt" | "en" }) {
   const isPt = lang === "pt";
   
   const navLinks = [
-    { label: uiTranslations.nav.about[isPt ? "pt" : "en"], href: isPt ? "#sobre" : "#about" },
     { label: uiTranslations.nav.projects[isPt ? "pt" : "en"], href: isPt ? "#projetos" : "#projects" },
     { label: uiTranslations.nav.research[isPt ? "pt" : "en"], href: isPt ? "#pesquisa" : "#research" },
   ];

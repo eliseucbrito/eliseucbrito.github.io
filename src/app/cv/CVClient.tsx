@@ -33,7 +33,7 @@ export function CVClient({ contentPt, contentEn }: CVClientProps) {
           <div>
             <h1 className="text-2xl print:text-3xl font-display font-bold uppercase tracking-tight">{heroData.data.title}</h1>
             <p className="text-xs print:text-[11px] font-mono mt-1 text-gray-600">
-              {activeLang === "pt" ? "Engenheiro de Software" : "Software Engineer"} • ecb2@cin.ufpe.br • linkedin.com/in/eliseucbrito • eliseucbrito.github.io
+              {activeLang === "pt" ? "Engenheiro de Software" : "Software Engineer"} • eliseucdbrito@gmail.com • linkedin.com/in/eliseucbrito • eliseucbrito.github.io
             </p>
           </div>
           <button 
@@ -43,13 +43,6 @@ export function CVClient({ contentPt, contentEn }: CVClientProps) {
             {activeLang === "pt" ? "Imprimir PDF" : "Print PDF"}
           </button>
         </header>
-
-        <section className="mb-4">
-          <div 
-            className="text-xs print:text-[10.5px] leading-snug"
-            dangerouslySetInnerHTML={{ __html: heroData.content }}
-          />
-        </section>
 
         <section className="mb-4">
           <h2 className="text-base print:text-sm font-bold uppercase border-b border-gray-300 pb-1 mb-2">{experienceData.data.title}</h2>
@@ -106,7 +99,7 @@ export function CVClient({ contentPt, contentEn }: CVClientProps) {
               <div key={idx} className="break-inside-avoid leading-snug">
                 <h3 className="font-bold text-xs print:text-[10.5px] inline">{pub.title}</h3>
                 <span className="text-xs print:text-[10px] text-gray-700 italic ml-1">({pub.event}, {pub.year})</span>
-                <p className="text-[10px] print:text-[9px] text-gray-600 mt-0.5">{pub.authors}</p>
+                <p className="text-[10px] print:text-[9px] text-gray-600 mt-0.5">{pub.authors}{pub.doi && <> · DOI: <a href={`https://doi.org/${pub.doi}`} className="underline">{pub.doi}</a></>}</p>
               </div>
             ))}
           </div>

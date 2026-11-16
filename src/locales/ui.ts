@@ -1,13 +1,5 @@
 export const uiTranslations = {
   nav: {
-    about: {
-      pt: 'SOBRE',
-      en: 'ABOUT',
-    },
-    leadership: {
-      pt: 'LIDERANÇA',
-      en: 'LEADERSHIP',
-    },
     projects: {
       pt: 'PROJETOS',
       en: 'PROJECTS',

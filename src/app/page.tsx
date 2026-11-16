@@ -6,7 +6,6 @@ export default async function Home() {
   const getLanguageContent = (lang: string) => {
     return {
       heroData: getFileContent(lang, "hero"),
-      leadershipData: getFileContent(lang, "leadership"),
       experienceData: getFileContent(lang, "experience"),
       projectsData: getFileContent(lang, "projects"),
       publicationsData: getFileContent(lang, "publications"),
