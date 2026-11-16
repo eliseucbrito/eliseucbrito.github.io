@@ -7,6 +7,7 @@ interface Publication {
   role?: string;
   abstract?: string;
   reference?: string;
+  doi?: string;
 }
 
 interface PublicationsSectionProps {
@@ -64,6 +65,11 @@ export function PublicationsSection({ data, content }: PublicationsSectionProps)
                     <p className="font-mono text-xs text-metadata">
                       {pub.authors}
                     </p>
+                    {pub.doi && (
+                      <a href={`https://doi.org/${pub.doi}`} target="_blank" rel="noopener noreferrer" className="block font-mono text-xs text-primaryInk underline underline-offset-4 decoration-hairline hover:text-accent hover:decoration-accent transition-colors">
+                        DOI: {pub.doi} ↗
+                      </a>
+                    )}
                     {pub.role && (
                       <span className="inline-block font-mono text-xs uppercase tracking-[0.5px] text-accent border border-accent px-2 py-1">
                         {pub.role}

@@ -7,94 +7,84 @@ experiences:
     type: "Public Federal Servant"
     period: "2024 — present"
     description: >
-      CInCoders is the development division of the Systems Management at the UFPE Center for
-      Informatics. As a Technician, I work on the development and modernization of institutional
-      systems used daily by the entire academic community — building accessible, responsive interfaces
-      for high-volume applications, integrating legacy systems with new solutions through APIs and data
-      pipelines, and refactoring Java and NodeJS applications with a focus on performance, security and
-      technical debt reduction. Beyond development itself, I am responsible for supervising interns,
-      establishing the technical standards the team follows and reviewing code, acting as a technical
-      reference — which puts me in a position to ensure not only that things work, but that they are
-      done the right way.
+      <em>The development division of the Systems Management office at CIn/UFPE, which turns the
+      academic and administrative demands of the Center into internal systems.</em><br><br>
+      I gather requirements with program coordinators, faculty and administrative offices across CIn,
+      learning how each process works today and where it breaks down for the people who depend on it.
+      That listening is where the systems we build come from, with clear workflows, deadlines and owners,
+      so that academic rules are enforced by the system itself rather than by someone chasing people.<br><br>
+      On the technical side, I define the architecture of our solutions and we record scope and decisions
+      in PRDs and ADRs, which gives the team a clear basis to build on and gives whoever comes next a way to
+      understand why things are the way they are. During delivery, I lead our interns and junior developers,
+      guiding technical choices, setting code standards and reviewing what goes to production, and I step
+      into the code when a project reaches its delivery and wrap-up phase. In parallel, we keep modernizing
+      legacy Java and Node.js applications, with attention to security, performance and technical debt.
 
   - title: "Deputy Coordinator"
     company: "CInCoders — Fábrica (Extension Project) — CIn/UFPE"
     type: "University Extension"
     period: "2026 — present"
     description: >
-      Fábrica is the CInCoders extension project: a university software factory in which undergraduate
-      students develop real applications for non-profit organizations. As Deputy Coordinator, I oversee
-      the different areas that sustain the project — technical development, governance, product, design
-      and communication — coordinating the leads of each front rather than executing them directly. I
-      also represent Fábrica in meetings with our clients and work on prospecting new clients and
-      projects, ensuring the team delivers production-quality software within the academic pace.
+      <em>A university software house where undergraduate students build production-grade software for
+      non-profit organizations.</em>
+    highlights:
+      - "I coordinate a team of 15+ students organized into five areas (development, governance, product, design and communication), each with its own lead."
+      - "We designed the agile methodology the team uses today, adapted to the academic calendar."
+      - "I represent Fábrica with our clients and take part in finding new partners. We currently have 3 active projects, with Gris, Casa do Estudante de Pernambuco and the Vila Arraes Residents' Association."
 
-  - title: "Software Engineer & AI Researcher — Undergraduate Fellow"
+  - title: "Software Engineer & AI Researcher"
     company: "AI for Digital Transformation of Public Procurement — UFPE · SAD-PE · SETD-PE (State Government of Pernambuco)"
-    type: "Software Engineering & Research"
+    type: "Research & Development · Undergraduate Fellow"
     period: "Jun/2026 — present"
     description: >
-      Undergraduate fellow on the "AI for Digital Transformation of Public Procurement" project, a
-      partnership between UFPE, the Secretariat of Administration (SAD-PE) and the Executive
-      Secretariat for Digital Transformation (SETD-PE) of the state government of Pernambuco. The
-      project brings together applied research in similarity analysis (natural language processing
-      and LLMs to reconcile procurement data described in different ways across different databases)
-      which feeds MAPEAR, a public price research platform we keep improving with new tools that
-      help set prices for products under bidding. In parallel, we work on rethinking internal
-      processes that today demand excessive time and effort from public servants, aiming to make
-      them more efficient and improve the day-to-day work of those who run the state's public
-      procurement.
+      <em>A partnership between UFPE and the State Government of Pernambuco (SAD-PE and SETD-PE) to
+      modernize the state's public procurement cycle with AI and software, from drafting the Terms of
+      Reference to price research.</em>
+    highlights:
+      - "Semantic similarity: I worked on the NLP pipeline that reconciles procurement items described differently across databases, where we proposed alternative LLM-based architectures and ways to improve the performance of the pipeline in use."
+      - "MAPEAR: we took over from the state government the platform that cross-references purchase data from E-Fisco, Pernambuco's system, with PNCP, the federal one. We fixed the security and infrastructure issues we found and keep expanding the platform, now with purchase data from governments across the country to point to the right price for each item and avoid both overpricing and underpricing."
+      - "Infrastructure: I was responsible for migrating the platforms to CIn's infrastructure, handling environment configuration and DevOps. I am now leading the transition to the infrastructure of ATI, Pernambuco's State Information Technology Agency, adapting the required infrastructure, acting as the technical contact with the agency and driving the updates that fit our applications to its established environment."
+      - "Terms of Reference: we are building the platform that digitizes the drafting of the Terms of Reference, the document that precedes the bidding session, making the process more guided and collaborative for state employees."
+      - "On both platforms I am responsible for technical leadership, choosing technologies, defining the architecture and deciding where optimization pays off. The work starts with conversations with civil servants and managers to understand where the process gets stuck, and goes all the way to a working solution that actually solves their problem."
 
-  - title: "Co-founder & Solutions Architect"
-    company: "PoliTrends — Real-Time Sociopolitical Intelligence"
-    type: "Data Product"
-    period: "2024 — present"
-    url: "https://politrends-web.vercel.app/"
+  - title: "Teaching Assistant & Technical Advisor"
+    company: "Health with Data (Saúde com Dados) · CIn/UFPE and Hospital das Clínicas da UFPE"
+    type: "Teaching & Health Innovation"
+    period: "2026 — present"
     description: >
-      I co-founded and technically led PoliTrends, a platform that collects and processes social media
-      data in real time to generate political analyses about Brazilian candidates. I designed an
-      event-driven architecture for continuous ingestion and processing of large volumes of data,
-      connected to predictive models, along with the web visualization platform aimed at journalists
-      and researchers. In 2024, our electoral projections surpassed the accuracy of institutes like
-      Datafolha and Quaest — a direct result of well-founded technical choices in the architecture and
-      the models.
+      <em>A CIn course led by Prof. Maíra Santana with HC-UFPE, in which real problems from the hospital
+      become student innovation projects.</em>
+    highlights:
+      - "I provide technical coordination to 5 groups, 25 students in total, alongside the professor and the hospital staff. My role is to make sure every problem reported by HC-UFPE becomes a real solution that the hospital team can actually use in its routine, not a prototype built just to pass the course."
+      - "I follow projects such as an indicators observatory for the Obstetric Center (real-time bed occupancy and care-flow bottlenecks), the identification of hidden operating costs, and AI-assisted patient preparation for exams."
+      - "I became a teaching assistant after taking the course and building QUALIRAD with my group, tested at HC-UFPE and published at the Brazilian Congress on Biomedical Engineering (IEEE) in 2026, with a paper on which I am the main author. I now lead the development of new versions with the current class, aiming to bring the tool to every university hospital in the federal network."
 
-  - title: "Freelance Developer"
+  - title: "Full Stack Freelance Developer"
     company: "Self-employed"
     type: "Freelancer"
     period: "2022 — 2024"
     description: >
-      Worked as a freelance developer in parallel with Scientific Initiation, serving individuals and
-      small businesses by referral. I conducted all stages of the projects on my own — requirements
-      gathering, design, development, infrastructure and delivery — building fullstack web systems with
-      React, NestJS, Java and Spring Boot. Among the work, I developed an e-commerce with automated
-      credential delivery and Stripe integration (webhooks, payment status updates and real-time
-      inventory control) and custom management systems, focused on usability and adherence to each
-      business's real flow. Working end to end required a complete view of the software construction
-      cycle, not just the technical part.
+      <em>Projects for individuals and small businesses.</em>
+    highlights:
+      - "I ran the projects on my own from end to end, from requirements gathering to infrastructure and delivery. The most impactful ones were:"
+      - "An e-commerce platform with automated credential delivery and Stripe integration (webhooks, payment status and real-time inventory control)."
+      - "A management system for a veterinary clinic, covering registration and follow-up of patients and their owners."
 
   - title: "Researcher — Scientific Initiation CNPq"
     company: "INES — National Institute of Software Engineering / UFPE"
     type: "Research"
     period: "2024"
     url: "https://ines.org.br/"
-    description: >
-      Research in time series prediction with machine learning and deep learning, with a scholarship
-      funded by CNPq, focused on the development and validation of predictive models and the study of
-      advanced ML techniques for identifying patterns in complex temporal data. The project was ended
-      before completion due to approval in a public federal exam — a deliberate choice, not an
-      interruption.
+    highlights:
+      - "We developed and validated machine learning and deep learning models for time series forecasting."
+      - "I ended the project when I took office at CIn/UFPE after passing a federal civil service exam."
 
   - title: "Researcher — Scientific Initiation"
     company: "Federal Institute of Sertão Pernambucano"
     type: "Research"
     period: "2023"
-    description: >
-      Research on air quality prediction and COVID-19 deaths using machine learning, with exploratory
-      analysis and predictive modeling applied to real time series with environmental and
-      epidemiological variables. The work generated two papers accepted and presented at the XVI
-      Brazilian Congress on Computational Intelligence: "On the Problem of Air Quality Prediction with
-      Machine Learning Models" (main author) and "A Growing Deep Model for COVID-19 Death Prediction in
-      Brazil" (co-authorship).
+    highlights:
+      - "Air quality: we compared machine learning models for forecasting air quality indices from real environmental time series. The work became the paper “Sobre o Problema de Previsão de Qualidade de Ar com Modelos de Aprendizagem de Máquina”, on which I am the main author, presented at the XVI Brazilian Congress on Computational Intelligence (Salvador, 2023)."
+      - "COVID-19: we proposed and validated a growing-architecture deep learning model to forecast COVID-19 deaths in Brazil from epidemiological time series. The work became the paper “Um Modelo Profundo Crescente para Previsão de Óbitos por COVID-19 no Brasil”, on which I am a co-author, presented at the same congress."
 
 ---

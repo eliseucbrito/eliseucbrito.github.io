@@ -7,95 +7,85 @@ experiences:
     type: "Servidor Público Federal"
     period: "2024 — presente"
     description: >
-      O CInCoders é a divisão de desenvolvimento da Gerência de Sistemas do Centro de Informática da
-      UFPE. Como Técnico, trabalho no desenvolvimento e modernização de sistemas institucionais usados
-      diariamente por toda a comunidade acadêmica — construindo interfaces acessíveis e responsivas
-      para aplicações de grande volume de usuários, integrando sistemas legados a novas soluções por
-      meio de APIs e pipelines de dados, e refatorando aplicações em Java e NodeJS com foco em
-      performance, segurança e redução de débito técnico. Além do desenvolvimento em si, sou
-      responsável por supervisionar bolsistas, definir os padrões técnicos que a equipe segue e revisar
-      código, atuando como referência técnica — o que me coloca numa posição de garantir não só que as
-      coisas funcionem, mas que sejam feitas da forma certa.
+      <em>Divisão de desenvolvimento da Gerência de Sistemas do CIn/UFPE, que transforma as demandas da
+      gestão acadêmica e administrativa do Centro em sistemas internos.</em><br><br>
+      Trabalho levantando requisitos junto às coordenações, aos professores e aos setores administrativos
+      do CIn, entendendo como cada processo funciona hoje e em que ponto ele trava para quem depende dele.
+      É dessa escuta que saem os sistemas que construímos, com fluxos, prazos e responsáveis definidos,
+      para que as regras acadêmicas sejam aplicadas pelo próprio sistema, e não por cobrança de alguém.<br><br>
+      Do lado técnico, defino a arquitetura das soluções e registramos escopo e decisões em PRDs e ADRs, o
+      que dá ao time uma base clara para construir e a quem vier depois uma forma de entender por que as
+      coisas são como são. Na execução, lidero os nossos estagiários e desenvolvedores juniores, orientando
+      as escolhas técnicas, definindo os padrões de código e fazendo o code review do que vai para
+      produção, e entro na codificação quando o projeto chega à fase de entrega e finalização. Em
+      paralelo, seguimos modernizando aplicações legadas em Java e Node.js, com atenção a segurança,
+      performance e débito técnico.
 
   - title: "Coordenador Adjunto"
     company: "CInCoders — Fábrica (Projeto de Extensão) — CIn/UFPE"
     type: "Extensão Universitária"
     period: "2026 — presente"
     description: >
-      A Fábrica é o projeto de extensão do CInCoders: uma fábrica de software universitária em que
-      estudantes de graduação desenvolvem aplicações reais para organizações sem fins lucrativos. Como
-      Coordenador Adjunto, supervisiono as diferentes áreas que sustentam o projeto — desenvolvimento
-      técnico, governança, produto, design e comunicação — coordenando os responsáveis por cada frente
-      em vez de executá-las diretamente. Também represento a Fábrica nas reuniões com nossos clientes e
-      atuo na prospecção de novos clientes e projetos, garantindo que o time entregue software de
-      qualidade de produção dentro do ritmo acadêmico.
+      <em>Fábrica de software universitária em que estudantes de graduação desenvolvem software de
+      produção para organizações sem fins lucrativos.</em>
+    highlights:
+      - "Coordeno um time de 15+ estudantes organizado em cinco frentes (desenvolvimento, governança, produto, design e comunicação), cada uma com um responsável."
+      - "Estruturamos a metodologia ágil que o time usa hoje, adaptada ao calendário acadêmico."
+      - "Represento a Fábrica junto aos clientes e participo da prospecção de novos parceiros. Hoje temos 3 projetos ativos, com a Gris, a Casa do Estudante de Pernambuco e a Associação de Moradores da Vila Arraes."
 
-  - title: "Engenheiro de Software & Pesquisador em IA — Bolsista de Graduação"
+  - title: "Engenheiro de Software & Pesquisador em IA"
     company: "IA para Transformação Digital das Compras Públicas — UFPE · SAD-PE · SETD-PE (Governo Estadual de Pernambuco)"
-    type: "Engenharia de Software & Pesquisa"
+    type: "Pesquisa & Desenvolvimento · Bolsista de Graduação"
     period: "Jun/2026 — presente"
     description: >
-      Bolsista de graduação no projeto "IA para Transformação Digital das Compras Públicas",
-      parceria entre a UFPE, a Secretaria de Administração (SAD-PE) e a Secretaria Executiva de
-      Transformação Digital (SETD-PE) do governo estadual de Pernambuco. O projeto reúne uma
-      pesquisa aplicada em análise de similaridade (processamento de linguagem natural e LLMs para
-      reconciliar dados de compras descritos de formas distintas em diferentes bases) que alimenta o
-      MAPEAR, plataforma de pesquisa de preços públicos que seguimos aperfeiçoando com novas
-      ferramentas de apoio à definição de preços de produtos licitados. Em paralelo, trabalhamos em
-      repensar processos internos que hoje consomem tempo e esforço excessivos dos servidores,
-      buscando torná-los mais eficientes e melhorar o dia a dia de trabalho de quem conduz as
-      compras públicas do estado.
+      <em>Parceria entre a UFPE e o Governo de Pernambuco (SAD-PE e SETD-PE) para modernizar, com IA e
+      software, o ciclo de compras públicas do estado, da elaboração do Termo de Referência à pesquisa de
+      preços.</em>
+    highlights:
+      - "Similaridade semântica: atuei no pipeline de NLP que reconcilia itens de compras públicas descritos de formas diferentes entre bases, onde propusemos arquiteturas alternativas com LLMs e caminhos para melhorar a performance do pipeline em uso."
+      - "MAPEAR: recebemos do governo estadual a plataforma que cruza os dados de compras do E-Fisco, de Pernambuco, com o PNCP, federal. Corrigimos os problemas de segurança e infraestrutura que encontramos e seguimos ampliando a plataforma, agora com dados de compras de governos de todo o país para apontar o preço adequado de cada item e evitar tanto o sobrepreço quanto o subpreço."
+      - "Infraestrutura: fui responsável pela migração das plataformas para a infraestrutura do CIn, cuidando da configuração dos ambientes e do DevOps. Hoje estou à frente da transição para a infraestrutura da ATI, a Agência Estadual de Tecnologia da Informação de Pernambuco, adequando a infraestrutura necessária, atuando como contato técnico com a agência e conduzindo as atualizações que adaptam as aplicações ao ambiente já estabelecido por ela."
+      - "Termo de Referência: estamos desenvolvendo a plataforma que digitaliza a elaboração do Termo de Referência, documento que antecede o pregão, tornando o processo mais guiado e colaborativo para os servidores do estado."
+      - "Nas duas plataformas, respondo pela liderança técnica, escolhendo as tecnologias, definindo a arquitetura e decidindo onde vale a pena otimizar. O trabalho começa na conversa com servidores e gestores, para entender onde o processo emperra, e segue até a solução que de fato resolve o problema deles, já implementada."
 
-  - title: "Co-fundador & Arquiteto de Soluções"
-    company: "PoliTrends — Inteligência Sociopolítica em Tempo Real"
-    type: "Produto de Dados"
-    period: "2024 — presente"
-    url: "https://politrends-web.vercel.app/"
+  - title: "Monitor e Orientador Técnico"
+    company: "Saúde com Dados · CIn/UFPE e Hospital das Clínicas da UFPE"
+    type: "Ensino & Inovação em Saúde"
+    period: "2026 — presente"
     description: >
-      Co-fundei e liderei tecnicamente o PoliTrends, uma plataforma que coleta e processa dados de
-      redes sociais em tempo real para gerar análises políticas sobre candidatos brasileiros.
-      Desenhei uma arquitetura event-driven para ingestão e processamento contínuo de grandes volumes
-      de dados, conectada a modelos preditivos, além da plataforma web de visualização voltada para
-      jornalistas e pesquisadores. Em 2024, nossas projeções eleitorais superaram a acurácia de
-      institutos como Datafolha e Quaest — resultado direto de escolhas técnicas bem fundamentadas na
-      arquitetura e nos modelos.
+      <em>Disciplina do CIn, conduzida pela Profa. Maíra Santana com o HC-UFPE, em que problemas reais do
+      hospital viram projetos de inovação dos alunos.</em>
+    highlights:
+      - "Coordeno tecnicamente 5 grupos, com 25 estudantes no total, junto à professora e à equipe do hospital. Meu papel é garantir que cada problema relatado pelo HC-UFPE vire uma solução real, que a equipe do hospital consiga de fato usar na rotina, e não um protótipo feito só para cumprir a disciplina."
+      - "Acompanho projetos como um observatório de indicadores do Centro Obstétrico (ocupação de leitos e gargalos do fluxo assistencial em tempo real), a identificação de custos invisíveis da operação e a preparação de pacientes para exames com apoio de IA."
+      - "Cheguei à monitoria depois de cursar a disciplina e desenvolver, com meu grupo, o QUALIRAD, testado no HC-UFPE e publicado no Congresso Brasileiro de Engenharia Biomédica (IEEE), em 2026, com artigo do qual sou autor principal. Hoje conduzo, com a turma atual, o desenvolvimento das novas versões, com o objetivo de levar a ferramenta a todos os hospitais universitários da rede federal."
 
-  - title: "Desenvolvedor Freelancer"
+  - title: "Desenvolvedor Full Stack Freelancer"
     company: "Autônomo"
     type: "Freelancer"
-    period: "2022 —  2024"
+    period: "2022 — 2024"
     description: >
-      Atuei como desenvolvedor autônomo em paralelo à Iniciação Científica, atendendo pessoas físicas
-      e pequenas empresas por indicação. Conduzi sozinho todas as etapas dos projetos — levantamento
-      de requisitos, design, desenvolvimento, infraestrutura e entrega — construindo sistemas web
-      fullstack com React, NestJS, Java e Spring Boot. Entre os trabalhos, desenvolvi um e-commerce
-      com entrega automatizada de credenciais e integração com Stripe (webhooks, atualização de estado
-      de pagamento e controle de estoque em tempo real) e sistemas de gestão sob medida, com foco na
-      usabilidade e na aderência ao fluxo real de cada negócio. Trabalhar de ponta a ponta exigiu
-      visão completa do ciclo de construção de software, não só da parte técnica.
+      <em>Projetos para pessoas físicas e pequenas empresas.</em>
+    highlights:
+      - "Conduzi sozinho os projetos de ponta a ponta, do levantamento de requisitos à infraestrutura e entrega. Os de maior impacto foram:"
+      - "Desenvolvi um e-commerce com entrega automatizada de credenciais e integração com Stripe (webhooks, estado de pagamento e controle de estoque em tempo real)."
+      - "Desenvolvi um sistema de gestão para clínica veterinária, com o cadastro e o acompanhamento de pacientes e tutores."
 
   - title: "Pesquisador — Iniciação Científica CNPq"
     company: "INES — Instituto Nacional de Engenharia de Software / UFPE"
     type: "Pesquisa"
     period: "2024"
     url: "https://ines.org.br/"
-    description: >
-      Pesquisa em predição de séries temporais com machine learning e deep learning, com bolsa
-      financiada pelo CNPq, voltada ao desenvolvimento e à validação de modelos preditivos e ao estudo
-      de técnicas avançadas de ML para identificação de padrões em dados temporais complexos. O
-      projeto foi encerrado antes da conclusão por conta de aprovação em concurso público federal —
-      uma escolha deliberada, não uma interrupção.
+    highlights:
+      - "Desenvolvemos e validamos modelos de machine learning e deep learning para predição de séries temporais."
+      - "Encerrei o projeto ao assumir o cargo no CIn/UFPE, após aprovação em concurso público federal."
 
   - title: "Pesquisador — Iniciação Científica"
     company: "Instituto Federal do Sertão Pernambucano"
     type: "Pesquisa"
     period: "2023"
-    description: >
-      Pesquisa sobre predição da qualidade do ar e de óbitos por COVID-19 usando aprendizado de
-      máquina, com análise exploratória e modelagem preditiva aplicada a séries temporais reais com
-      variáveis ambientais e epidemiológicas. O trabalho gerou dois artigos aceitos e apresentados no
-      XVI Brazilian Congress on Computational Intelligence: "Sobre o Problema de Previsão de Qualidade
-      de Ar com Modelos de Aprendizagem de Máquina" (autor principal) e "Um Modelo Profundo Crescente
-      para Previsão de Óbitos por COVID-19 no Brasil" (coautoria).
+    highlights:
+      - "Qualidade do ar: comparamos modelos de machine learning para prever índices de qualidade do ar a partir de séries temporais ambientais reais. O trabalho virou o artigo “Sobre o Problema de Previsão de Qualidade de Ar com Modelos de Aprendizagem de Máquina”, do qual sou autor principal, apresentado no XVI Brazilian Congress on Computational Intelligence (Salvador, 2023)."
+      - "COVID-19: propusemos e validamos um modelo de deep learning de arquitetura crescente para prever óbitos por COVID-19 no Brasil a partir de séries temporais epidemiológicas. O trabalho virou o artigo “Um Modelo Profundo Crescente para Previsão de Óbitos por COVID-19 no Brasil”, do qual sou coautor, apresentado no mesmo congresso."
 
 ---
